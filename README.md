@@ -224,5 +224,5 @@ Ensure `professional_projects/index.html` and `professional_projects/projects.js
 A polished write-up with visuals lives at:
 
 ```
-professional_projects/vehicle_routing/index.html
+https://hammadezad.github.io/professional_projects/vehicle_routing/index.html
 ```
