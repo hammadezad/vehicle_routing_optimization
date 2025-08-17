@@ -1,10 +1,9 @@
 # Vehicle Routing Optimizer
 
 Production-grade VRP pipeline for daily dispatch planning with **Gurobi**.  
-Refactored from a ~3,800-line monolith into clean, testable modules.  
 Supports warm starts across phases, rate-card constraints, time windows, and flexible quantities.
 
-![Cover](professional_projects/vehicle_routing/images/cover.jpg)
+![Cover](cover.jpg)
 
 ## Why this project
 
@@ -49,12 +48,6 @@ Planners need fast, reliable routing that respects business rules: maximum stops
 ├── tests/
 │   └── test_modular_structure.py
 ├── logs/                     # created at runtime
-└── professional_projects/
-    └── vehicle_routing/
-        ├── index.html
-        └── images/
-            └── cover.jpg
-```
 
 Run outputs land in `reports_<scenario>_<timestamp>/`.  
 Logs live in `logs/` (`app.log`, `errors.log`).
